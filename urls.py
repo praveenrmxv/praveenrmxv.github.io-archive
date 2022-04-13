@@ -2,8 +2,12 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('postComment', views.postComment, name="postComment"),
-    path('', views.blogHome, name="bloghome"),
-    path('<str:slug>', views.blogPost, name="blogPost"),
+    path('', views.index, name='index'),
+    path('contact/', views.contact, name="contact"),
+    path('search/', views.search, name="search"),
+    path('signup', views.handleSignUp, name="handleSignUp"),
+    path('login', views.handleLogin, name="handleSignUp"),
+    path('logout', views.hanldeLogout, name="handleSignUp"),
+
 
 ]
