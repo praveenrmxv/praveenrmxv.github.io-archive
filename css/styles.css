@@ -1,0 +1,159 @@
+* {
+    background-color:#0000;
+}
+body{
+    max-width: 960px;
+    margin: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.header h2, h6 {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+}
+nav {
+    text-align: center;
+}
+nav a:link, a:visited {
+    text-align: center;
+    text-decoration: none;
+    padding: 1px 1%;
+    margin: 4px 2px;
+    color: orangered;
+    border: 1px solid orangered;
+    background-color: #9001;
+    border-radius: 10px;
+    display: inline-block;
+}
+nav a:hover {
+    text-decoration: none;
+    padding: 1px 1%;
+    color: aliceblue;
+    background-color: orangered;
+}
+
+nav a:active {
+    text-decoration: none;
+    padding: 1px 1%;
+    color: aliceblue;
+    background-color: green;
+}
+
+.article {
+    background-color: #9001;
+    border: 1px solid tomato;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px 8px;
+}
+
+label {
+    display: inline-flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+form {
+    border: 1px solid orangered;
+    background-color: #babd0010;
+    border-radius: 10px;
+    text-align: left;
+    margin: 8px;
+    padding: 20px;
+}
+
+input {
+    display: flex;
+    width: 90%;
+    max-width: 960px;
+    border: 1px solid #babd00;
+    text-align: left;
+    align-items: calc(50% - 10px);
+    padding: 12px 20px;
+    margin: 8px 2px;
+}
+label textarea {
+    border: 1px solid #babd00;
+    border-radius: 10px;
+
+}
+label .feedback {
+    background-color: #babd0011;
+    margin:auto;
+    padding: 8px;
+
+}
+label .rate {
+    display: block;
+    text-align: center;
+}
+select {
+    display: flex;
+    align-items: center;
+
+}
+
+
+/*=============================================================================================*/
+/*          # The followng codes will be implementeed later
+header{
+    background-color: White;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    position:relative;
+    text-align: center;
+    padding:16%;
+    background-image: url(../light-logo.png);
+    background-position: center;
+    background-size:568px 190px;
+    background-image: ;
+    background-repeat: no-repeat;
+    filter: blur(10px);
+}
+
+.header a:link, a:visited {
+    color: orangered;
+    text-decoration: none;
+    background-color: #9001;
+    border-radius: 10%;
+    
+    border: 1px solid #f002;
+}
+.header a:hover, a:active {
+    color: aliceblue;
+    text-decoration: none;
+    background-color:orangered;
+    border-radius: 10%;
+    border: 1px solid red;
+}
+.header p {
+    text-align: center;
+    border: none;
+    background-color: #0000;
+    padding: 0px;
+    margin: 0px;
+}
+.header h1 {
+background-color: #0000;
+color: orangered;
+}
+form {
+    text-align: left;
+    inp
+}
+
+nav {
+    text-align: center;
+    background-color: #1232;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding-left : 0%;
+    padding-right: 0%;
+    padding-top : 4px;
+    padding-bottom : 4px;
+}
+*/
